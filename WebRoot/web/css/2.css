@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sana-fserif;
+    background: #ffc8d2;
+    
+}
+.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;   /* 绝对定位，相对于父标签来进行定位 */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+    background:	#ffeff2;
+    text-align: center;  /*表单中内容居中*/
+    
+
+}
+.box h1{
+    color: black;    /* 设置字体颜色 */
+    text-transform: uppercase;  /* 将字体全部设置成大写字母  */
+    font-weight: 500;  /*  设置字体粗细   */
+}
+.box input[type="text"],.box input[type="password"]{
+  border-radius: 24px;
+  border: 2px solid #ff889d;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: black;     /* 设置输入框中竖线的颜色 */
+  transition: 0.25s;   /* 设置元素过渡效果 */
+}
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 280px;
+    border-color: #ff889d;
+    color:black;
+    
+    
+}
+
+.box input[type="submit"]{
+  border-radius: 24px;
+  border: 2px solid #ff889d;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  padding: 14px 40px;
+  outline: none;
+  color: black;     /* 设置输入框中竖线的颜色 */
+  transition: 0.25s;
+  cursor: pointer;    /* 设置光标的样式 */
+}
+.box input[type="submit"]:hover{
+    background: #ffc8d2;
+}
+p a{
+	color: #FF69B4;
+}
+
+
+

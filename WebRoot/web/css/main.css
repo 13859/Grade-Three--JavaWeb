@@ -1,0 +1,109 @@
+/* 样式 */
+body {
+    margin: 0px;
+    text-align: center;
+    background: #ffc8d2;
+    background-size: 100%
+}
+
+table {
+    margin: 0 auto;
+    font-size: 14px;
+    color: #333333;
+    border-width: 1px;
+    border-color: khaki;
+    border-collapse: collapse;
+}
+
+table th {
+	
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color:  black;
+    background-color: #ffeff2;;
+}
+
+table td {
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+}
+
+table td a{
+	color:black;
+}
+
+/*登录页面样式*/
+.login {
+    width: 400px;
+    height: 340px;
+    background-color: honeydew;
+    border: solid 2px darkgrey;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin: -170px 0 0 -200px;
+}
+
+.login .websiteTitle, .title {
+    border: solid 1px floralwhite;
+}
+
+/*注册页面样式*/
+.register {
+    width: 400px;
+    height: 350px;
+    background-color: honeydew;
+    border: solid 2px darkgrey;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin: -175px 0 0 -200px;
+}
+
+/*显示类别页面样式*/
+.showCategory {
+    width: 400px;
+    height: 350px;
+    background-color: #ffeff2;
+    border: solid 2px darkgrey;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin: -150px 0 0 -200px;
+}
+
+.showCategory a{
+	color:black;
+}
+
+/*生成订单页面样式*/
+.makeOrder {
+    width: 400px;
+    height: 410px;
+    background-color: #ffeff2;
+    border: solid 2px darkgrey;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin: -200px 0 0 -200px;
+}
+
+a{
+	color:black;
+}
+
+/*显示订单页面样式*/
+.showOrder {
+    width: 400px;
+    height: 400px;
+    background-color: #ffeff2;
+    border: solid 2px darkgrey;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin: -200px 0 0 -200px;
+}
